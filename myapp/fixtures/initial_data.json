@@ -1,0 +1,16 @@
+[
+    {
+        "model": "myapp.Fruits",
+        "pk": 1,
+        "fields": {
+            "name": "りんご"
+        }
+    },
+    {
+        "model": "myapp.Fruits",
+        "pk": 2,
+        "fields": {
+            "name": "みかん"
+        }
+    }
+]

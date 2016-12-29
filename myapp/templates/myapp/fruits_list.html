@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fruits</title>
+</head>
+<body>
+
+<div id='main'>
+    {% load static %}
+    <h1><img src="{% static "image/shinanogold.png" %}" /></h1>
+    <table>
+        <tr>
+            <th>名前</th>
+        </tr>
+        {% for fruits in object_list %}
+        <tr>
+            <td>{{ fruits.name }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+</body>
+</html>
