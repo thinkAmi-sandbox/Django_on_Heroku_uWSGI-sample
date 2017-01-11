@@ -1,6 +1,10 @@
 
 # Created by https://www.gitignore.io/api/python,django
 
+# for Heroku settings: .env is enabeld.
+# dotenv
+# .env
+
 ### My File ###
 uwsgi_dev.ini
 .vscode/
@@ -84,9 +88,6 @@ target/
 
 # celery beat schedule file
 celerybeat-schedule
-
-# dotenv
-.env
 
 # virtualenv
 .venv/
